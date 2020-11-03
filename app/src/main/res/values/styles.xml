@@ -1,0 +1,45 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="otpStyle">
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">@dimen/margin_4dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_8dp</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8dp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+    </style>
+
+    <style name="btnStyle">
+        <item name="android:textSize">@dimen/size_18sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/margin_8dp</item>
+        <item name="android:layout_margin">@dimen/margin_4dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="titles">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/size_18sp</item>
+        <item name="android:padding">@dimen/margin_8dp</item>
+        <item name="android:layout_margin">@dimen/margin_8dp</item>
+    </style>
+
+    <style name="subTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/size_14sp</item>
+        <item name="android:padding">@dimen/margin_8dp</item>
+        <item name="android:layout_margin">@dimen/margin_8dp</item>
+    </style>
+
+</resources>
